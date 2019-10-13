@@ -23,7 +23,19 @@ def shift_with_args(array)
 end 
 
 def using_concat(array1, array2)
-  array1.concat array2 
+  array1.concat(array2) 
   
 end 
+
+def using_insert(array, element)
+  new_array = array.insert(element)
+end 
+
+def using_uniq(array)
+  array.uniq 
+end 
+
+def using_flatten(array)
+  
+  
   
