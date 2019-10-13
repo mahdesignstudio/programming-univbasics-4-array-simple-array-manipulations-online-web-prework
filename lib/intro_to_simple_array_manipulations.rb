@@ -6,3 +6,6 @@ def using_unshift(array, element)
   new_array = array.unshift(element)
 end 
 
+def using_pop
+  new array = array.pop(element)
+end 
